@@ -1,0 +1,15 @@
+{
+    "keyboard_name": "uta",
+    "url": "",
+    "maintainer": "AntoineAndre",
+    "width": 4,
+    "height": 1,
+    "layouts": {
+        "LAYOUT_horizontal": {
+            "key_count": 4,
+            "layout": [
+                { "x": 0, "y": 0 }, { "x": 1, "y": 0 }, { "x": 2, "y": 0 },  { "x": 3, "y": 0 }
+            ]
+        }
+    }
+}
