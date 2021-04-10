@@ -4,6 +4,11 @@ A 3-key handwired macro pad for music control with a rotary encoder.
 
 ![poster_render](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_poster_macro_keyboard_less.png)
 
+## Functions
+
+This keyboard is made to make easier the control of media players. It has two keys for changing the song (previous and next) and one key to play/pause the music. The rotary encoder is used to change the volume.
+
+![functions_render](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_front.png)
 
 ## Parts
 
@@ -33,3 +38,27 @@ Make sure to add some isolant (electric tape for example) and fill the inside of
 The plan of the assembly is made as follow:
 
 ![case_drawing](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/drawing_uta_kb.png)
+
+## Wiring
+
+Since there are only three keys and an encoder used, the wiring doesn't need to imply a col/row matrix. The three switches are wired to the pins 4, 5 and 6 of the Arduino Pro Micro and the encoder A and B pins are wired to the A0 and A1 pins.
+
+The firmware uses the internal pullup resistor of the microchip, so there isn't any need to add resistor between switches and ground.
+
+## Firmware
+
+Once the wiring and the case is done, the only thing left is to program the keys. The Arduino Pro Micro can act as a keyboard on its own and there are two options to assign the keys to the switches. First one (lazy one) is to use the Arduino environment and second method uses the qmk firmware.
+
+### Arduino
+
+For the first method, the libraries used are the [HID project](https://github.com/NicoHood/HID) and the [Click encoder](https://github.com/0xPIT/encoder) libraries.
+
+Main drawback of this method is that there is a latency of 300 ms between each key stroke reading. However, since the rotary encoder is attach to an interrupt function there isn't any latency for the volume function.
+
+Main advantage is that the code is easy to compile on the Arduino chip.
+
+### QMK
+
+Second method directly flashes the keys functions on the Arduino Pro Micro by using the [QMK firmware](https://github.com/qmk/qmk_firmware).
+
+The different configuration files and keymaps are placed in a dedicated folder
