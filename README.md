@@ -4,13 +4,15 @@ __Minimalist media controller__
 
 A 3-key handwired macro pad for music control with a rotary encoder.
 
-![main_illustration](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/main_illustration_uta_kb.png)
+![main_illustration](docs/main_illustration_uta_kb.png)
+
+See [renders](docs/README.md) for more illustrations.
 
 ## Features
 
 This keyboard is made to easily control mutlimedia playing with four common shortcuts. It has two keys for changing the song (previous and next) and one key to play/pause the music (or any media). The rotary encoder is used to change the volume.
 
-![functions_render](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_front.png)
+![functions_render](docs/render_front.png)
 
 | Rot_enc | Swich 1 | Switch 2 | Switch 3 |
 |---------|---------|----------|----------|
@@ -19,7 +21,7 @@ This keyboard is made to easily control mutlimedia playing with four common shor
 
 Which can be summarized in:
 
-![The default uta keymap](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/keyboard_layout.png)
+![The default uta keymap](docs/keyboard_layout.png)
 
 
 ## Parts
@@ -49,7 +51,7 @@ Make sure to add some isolant (electric tape for example) and fill the inside of
 
 Technical drawing of the case:
 
-![case_drawing](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/uta_case.png)
+![case_drawing](docs/uta_case.png)
 
 The case is then painted with spray paint (same for the keycaps).
 
@@ -59,7 +61,7 @@ The case is then painted with spray paint (same for the keycaps).
 
 Since there are only three keys and an encoder used, the wiring doesn't need to imply a col/row matrix. The three switches are wired to the pins 4, 5 and 6 of the Arduino Pro Micro and the encoder A and B pins are wired to the A0 and A1 pins.
 
-![wiring_schema](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/wiring_schema.png)
+![wiring_schema](docs/wiring_schema.png)
 
 The firmware uses the internal pullup resistor of the microchip, so there isn't any need to add resistor between switches and ground.
 
@@ -93,10 +95,10 @@ For more information about the compiling and the flashing of a keyboard trhough 
 
 After building the case, handwiring the switches and configuring the firmware, the resulting keyboard looks as follow:
 
-![uta_pic](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/uta_result_pic.jpg)
+![uta_pic](docs/uta_result_pic.jpg)
 
 
-![uta_pic2](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/uta_result_pic2.jpg)
+![uta_pic2](docs/uta_result_pic2.jpg)
 
 ## Side notes
 
