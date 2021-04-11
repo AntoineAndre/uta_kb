@@ -1,12 +1,14 @@
 # Uta
 
+__Minimalist media controller__
+
 A 3-key handwired macro pad for music control with a rotary encoder.
 
 ![poster_render](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_poster_macro_keyboard_less.png)
 
 ## Functions
 
-This keyboard is made to make easier the control of media players. It has two keys for changing the song (previous and next) and one key to play/pause the music. The rotary encoder is used to change the volume.
+This keyboard is made to make easier the control of media players. It has two keys for changing the song (previous and next) and one key to play/pause the music (or any media). The rotary encoder is used to change the volume.
 
 ![functions_render](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_front.png)
 
@@ -25,19 +27,23 @@ Here are the different parts used for this macro pad:
 
 ## Case build
 
-The case is build with above mentionned parts, in aluminium. It is important to note that the top plate is to be cut with square holes, so stay patient when doing this.
+The case is build with above mentionned parts, in aluminium<sup>1</sup>. Global dimensions of the macro pad, with the switches and keycaps is __85 x 45 x 27 mm__.
 
-The right side of the case needs to be cut a little, in order to let the micro USB cable connect to the Arduino Pro Micro.
+The right side of the case needs to be cut a little near to the bottom plate, in order to let the micro USB cable connect to the Arduino Pro Micro.
 
-The holes of the left, right and back plate (with the 4mm wide aluminium plates) size 1.7 mm in diameter. A M2 threading tool is used to make the screws fix the assembly.
+The holes of the left, right and back plate (with the 4mm wide aluminium plates) size 1.7 mm in diameter. A M2 threading tool is used to make the screws fix the assembly. Holes on the top plate are a bit larger to ensure that the screws fit properly in the threaded holes.
 
 The bottom plate is fixed with cyanolite glue to the left, right and back plates. This way the keyboard is still unmoutable by removing the top and front parts (that are attached together since a L-shaped plate is used).
 
 Make sure to add some isolant (electric tape for example) and fill the inside of the case so that there isn't any short-circuit (since the case is all in aluminium).
 
-The plan of the assembly is made as follow:
+Technical drawing of the case:
 
-![case_drawing](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/drawing_uta_kb.png)
+![case_drawing](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/uta_case.png)
+
+The case is then painted with spray paint (same for the keycaps).
+
+<sup>1</sup> It may be easier to 3d print the case, but I don't have and 3d printer now...
 
 ## Wiring
 
@@ -61,4 +67,10 @@ Main advantage is that the code is easy to compile on the Arduino chip.
 
 Second method directly flashes the keys functions on the Arduino Pro Micro by using the [QMK firmware](https://github.com/qmk/qmk_firmware).
 
-The different configuration files and keymaps are placed in a dedicated folder
+The different configuration files and keymaps are placed in a dedicated folder along with the compiled `.hex` file required to flash the Atmega32u4 using the qmk flash tool.
+
+## Result
+
+After building the case, handwiring the switches and configuring the firmware, the resulting keyboard looks as follow:
+
+![uta_pic](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/uta_final_pic.png)
