@@ -4,7 +4,7 @@ __Minimalist media controller__
 
 A 3-key handwired macro pad for music control with a rotary encoder.
 
-![poster_render](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_poster_macro_keyboard_less.png)
+![poster_render](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/main_illustration_uta_kb.png)
 
 ## Functions
 
@@ -64,11 +64,11 @@ There is no formal obligation to respect this wiring. If some pins are changed, 
 
 ## Firmware
 
-Once the wiring and the case is done, the only thing left is to program the keys. The Arduino Pro Micro can act as a keyboard on its own and there are two options to assign the keys to the switches. First one (lazy one) is to use the Arduino environment and second method uses the qmk firmware.
+Once the wiring and the case is done, the only thing left is to program the keys. The Arduino Pro Micro can act as a keyboard on its own and there are two options to assign the keys to the switches. First one (lazy one) is to use the Arduino environment and second method uses the qmk firmware to flash the keymap on the Arduino.
 
 ### Arduino
 
-For the first method, the libraries used are the [HID project](https://github.com/NicoHood/HID) and the [Click encoder](https://github.com/0xPIT/encoder) ones.
+For the first method, the program relies on two libraries used are the [HID project](https://github.com/NicoHood/HID) and the [Click encoder](https://github.com/0xPIT/encoder) ones.
 
 The Arduino script for this method is available in the dedicated folder `/firmware`
 
