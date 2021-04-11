@@ -8,7 +8,7 @@ A 3-key handwired macro pad for music control with a rotary encoder.
 
 ## Features
 
-This keyboard is made to easily control mutlimedia plaing with four common shortcuts. It has two keys for changing the song (previous and next) and one key to play/pause the music (or any media). The rotary encoder is used to change the volume.
+This keyboard is made to easily control mutlimedia playing with four common shortcuts. It has two keys for changing the song (previous and next) and one key to play/pause the music (or any media). The rotary encoder is used to change the volume.
 
 ![functions_render](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_front.png)
 
@@ -97,3 +97,11 @@ After building the case, handwiring the switches and configuring the firmware, t
 
 
 ![uta_pic2](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/uta_result_pic2.jpg)
+
+## Side notes
+
+There is a list of possible ameliorations to this design:
+
+- [ ] Proper PCB to avoid handwiring and better fixation of the Arduino
+- [ ] 3d printable design for the case and the plate
+- [ ] Remove the knob and remplace it by a linear encoder (to be placed on the front of the keys)
