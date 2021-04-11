@@ -97,7 +97,6 @@ After building the case, handwiring the switches and configuring the firmware, t
 
 ![uta_pic](docs/uta_result_pic.jpg)
 
-
 ![uta_pic2](docs/uta_result_pic2.jpg)
 
 ## Side notes
