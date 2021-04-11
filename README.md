@@ -6,9 +6,11 @@ A 3-key handwired macro pad for music control with a rotary encoder.
 
 ![main_illustration](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/main_illustration_uta_kb.png)
 
-## Functions
+## Features
 
 This keyboard is made to easily control mutlimedia plaing with four common shortcuts. It has two keys for changing the song (previous and next) and one key to play/pause the music (or any media). The rotary encoder is used to change the volume.
+
+![functions_render](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_front.png)
 
 | Rot_enc | Swich 1 | Switch 2 | Switch 3 |
 |---------|---------|----------|----------|
@@ -16,8 +18,8 @@ This keyboard is made to easily control mutlimedia plaing with four common short
 | VOL_UP  |         |   PAUSE  |          |
 
 Which can be summarized in:
+![The default uta keymap](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/keyboard_layout.png)
 
-![functions_render](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_front.png)
 
 ## Parts
 
