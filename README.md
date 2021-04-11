@@ -49,6 +49,8 @@ The case is then painted with spray paint (same for the keycaps).
 
 Since there are only three keys and an encoder used, the wiring doesn't need to imply a col/row matrix. The three switches are wired to the pins 4, 5 and 6 of the Arduino Pro Micro and the encoder A and B pins are wired to the A0 and A1 pins.
 
+![wiring_schema](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/wiring_schema.png)
+
 The firmware uses the internal pullup resistor of the microchip, so there isn't any need to add resistor between switches and ground.
 
 ## Firmware
