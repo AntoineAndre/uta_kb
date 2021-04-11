@@ -1,11 +1,11 @@
 # Renders
 
-![render_func](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_func.png)
+![render_func](render_func.png)
 
-![render_side](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_side.png)
+![render_side](render_side.png)
 
-![render_front](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_front.png)
+![render_text](render_text.png)
 
-![render_front2](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_front2.png)
+![render_front](render_front.png)
 
-![render_text](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_text.png)
+![render_front2](render_front2.png)
