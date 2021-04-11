@@ -4,7 +4,7 @@ __Minimalist media controller__
 
 A 3-key handwired macro pad for music control with a rotary encoder.
 
-![poster_render](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/main_illustration_uta_kb.png)
+![main_illustration](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/main_illustration_uta_kb.png)
 
 ## Functions
 
@@ -38,9 +38,9 @@ The case is build with above mentionned parts, in aluminium<sup>1</sup>. Global 
 
 The right side of the case needs to be cut a little near to the bottom plate, in order to let the micro USB cable connect to the Arduino Pro Micro.
 
-The holes of the left, right and back plate (with the 4mm wide aluminium plates) size 1.7 mm in diameter. A M2 threading tool is used to make the screws fix the assembly. Holes on the top plate are a bit larger to ensure that the screws fit properly in the threaded holes.
+Holes of the left, right and back plate (with the 4mm wide aluminium plates) size 1.7 mm in diameter. A M2 threading tool is used to make the screws fix the assembly. Holes on the top plate are a bit larger to ensure that the screws fit properly in the threaded holes.
 
-The bottom plate is fixed with cyanolite glue to the left, right and back plates. This way the keyboard is still unmoutable by removing the top and front parts (that are attached together since a L-shaped plate is used).
+Bottom plate is fixed with cyanolite glue to the left, right and back plates. This way the keyboard is still unmoutable by removing the top and front parts (that are attached together since a L-shaped plate is used).
 
 Make sure to add some isolant (electric tape for example) and fill the inside of the case so that there isn't any short-circuit (since the case is all in aluminium).
 
