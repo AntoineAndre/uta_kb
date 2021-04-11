@@ -8,7 +8,14 @@ A 3-key handwired macro pad for music control with a rotary encoder.
 
 ## Functions
 
-This keyboard is made to make easier the control of media players. It has two keys for changing the song (previous and next) and one key to play/pause the music (or any media). The rotary encoder is used to change the volume.
+This keyboard is made to easily control mutlimedia plaing with four common shortcuts. It has two keys for changing the song (previous and next) and one key to play/pause the music (or any media). The rotary encoder is used to change the volume.
+
+| Rot_enc | Swich 1 | Switch 2 | Switch 3 |
+|---------|---------|----------|----------|
+| VOL_DWN |  PREV   |   PLAY   |   NEXT   |
+| VOL_UP  |         |   PAUSE  |          |
+
+Which can be summarized in:
 
 ![functions_render](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/render_front.png)
 
@@ -43,7 +50,7 @@ Technical drawing of the case:
 
 The case is then painted with spray paint (same for the keycaps).
 
-<sup>1</sup> It may be easier to 3d print the case, but I don't have and 3d printer now...
+<sup>1</sup> It may be easier to 3d print the case, but I don't have and 3d printer now. Making the case in accrylic is also simpler since this material is easier to cut.
 
 ## Wiring
 
@@ -61,7 +68,9 @@ Once the wiring and the case is done, the only thing left is to program the keys
 
 ### Arduino
 
-For the first method, the libraries used are the [HID project](https://github.com/NicoHood/HID) and the [Click encoder](https://github.com/0xPIT/encoder) libraries.
+For the first method, the libraries used are the [HID project](https://github.com/NicoHood/HID) and the [Click encoder](https://github.com/0xPIT/encoder) ones.
+
+The Arduino script for this method is available in the dedicated folder `/firmware`
 
 Main drawback of this method is that there is a latency of 300 ms between each key stroke reading. However, since the rotary encoder is attach to an interrupt function there isn't any latency for the volume function.
 
@@ -75,8 +84,13 @@ The different configuration files and keymaps are placed in a dedicated folder a
 
 If different pins are used, they need to be changed in the `config.h` file and remplaced by the former pins of the atmega32u4.
 
+For more information about the compiling and the flashing of a keyboard trhough the QMK tool, please refer to the [documentation](https://docs.qmk.fm/#/).
+
 ## Result
 
 After building the case, handwiring the switches and configuring the firmware, the resulting keyboard looks as follow:
 
-![uta_pic](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/uta_final_pic.jpg)
+![uta_pic](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/uta_result_pic.jpg)
+
+
+![uta_pic2](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/uta_result_pic2.jpg)
