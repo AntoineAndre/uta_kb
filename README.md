@@ -53,6 +53,8 @@ Since there are only three keys and an encoder used, the wiring doesn't need to 
 
 The firmware uses the internal pullup resistor of the microchip, so there isn't any need to add resistor between switches and ground.
 
+There is no formal obligation to respect this wiring. If some pins are changed, don't forget to change them accordingly for the firmware. A list of the actual atmega chip output pins can be seen [here](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro16MHzv1.pdf).
+
 ## Firmware
 
 Once the wiring and the case is done, the only thing left is to program the keys. The Arduino Pro Micro can act as a keyboard on its own and there are two options to assign the keys to the switches. First one (lazy one) is to use the Arduino environment and second method uses the qmk firmware.
@@ -71,8 +73,10 @@ Second method directly flashes the keys functions on the Arduino Pro Micro by us
 
 The different configuration files and keymaps are placed in a dedicated folder along with the compiled `.hex` file required to flash the Atmega32u4 using the qmk flash tool.
 
+If different pins are used, they need to be changed in the `config.h` file and remplaced by the former pins of the atmega32u4.
+
 ## Result
 
 After building the case, handwiring the switches and configuring the firmware, the resulting keyboard looks as follow:
 
-![uta_pic](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/uta_final_pic.png)
+![uta_pic](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/uta_final_pic.jpg)
