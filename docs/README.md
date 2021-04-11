@@ -10,8 +10,8 @@
 
 # Result
 
-![uta_pic](docs/uta_result_pic.jpg)
+![uta_pic](uta_result_pic.jpg)
 
-![uta_pic2](docs/uta_result_pic2.jpg)
+![uta_pic2](uta_result_pic2.jpg)
 
-![uta_pic3](docs/uta_result_pic3.jpg)
+![uta_pic3](uta_result_pic3.jpg)
