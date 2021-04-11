@@ -18,6 +18,7 @@ This keyboard is made to easily control mutlimedia plaing with four common short
 | VOL_UP  |         |   PAUSE  |          |
 
 Which can be summarized in:
+
 ![The default uta keymap](https://raw.githubusercontent.com/AntoineAndre/uta_kb/main/docs/keyboard_layout.png)
 
 
