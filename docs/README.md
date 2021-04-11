@@ -2,8 +2,6 @@
 
 ![render_func](render_func.png)
 
-![render_side](render_side.png)
-
 ![render_text](render_text.png)
 
 ![render_front](render_front.png)
